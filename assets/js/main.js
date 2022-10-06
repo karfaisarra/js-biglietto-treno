@@ -23,5 +23,5 @@ if (age < 18 ) {
     price = initialPrice;
 
 }
-
-document.getElementById('prezzo').innerHTML = `Il prezzo da pagare è: ${price}€`;
+const priceFixed = price.toFixed(2); 
+document.getElementById('prezzo').innerHTML = `Il prezzo da pagare è: ${priceFixed}€`;
